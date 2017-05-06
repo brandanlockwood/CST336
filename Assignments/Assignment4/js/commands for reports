@@ -1,0 +1,3 @@
+SELECT a . * , b . *
+FROM `College` a
+INNER JOIN `Client` b ON a.CollegeID = b.CollegeID

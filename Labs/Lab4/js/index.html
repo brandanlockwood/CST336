@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+ <link rel="stylesheet" type="text/css" href="../css/main.css">
+ <title> </title>
+</head>
+
+<body>
+
+ <div class="body">
+  <div class="header">
+   <h1>Support your Presidential Candidate</h1>
+
+   <div class="img">
+    <img class="png" src="../img/download.png">
+   </div>
+  </div>
+  <div class="form">
+   <form action="confirmation.php" method="post">
+    <div class="personInfo">
+     <label>Enter your name</label>
+     <input STYLE="border:2px solid black; background-color:#C6D9F0;"type="text" name="name">
+     <br>
+     <label>Enter your age</label>
+     <input STYLE="border:2px solid black; background-color:#C6D9F0;" type="text" name="age" size="3" maxlength="3">(Must be 18 years or older)
+     <br>
+    </div>
+    <div class="candidate">
+     <label>Select your Candidate</label>
+     <SELECT NAME="Candidates">
+      <OPTION SELECTED>
+       <OPTION value="Donald Trump"> Donald Trump
+        <OPTION value="Bernie Sanders"> Bernie Sanders
+         <OPTION value="Other candidate"> Other candidate
+
+     </SELECT>
+    </div>
+    <div class="merch">
+     <p>Merchandise</p>
+     <input  type="checkbox" name="merch1" value="Mug ($15)"> Mug ($15)
+     <br>
+     <input type="checkbox" name="merch2" value="Cap ($20)"> Cap ($20)
+     <br>
+     <input type="checkbox" name="merch3" value="Tote Bag ($10)"> Tote Bag ($10)
+     <br>
+     <input type="checkbox" name="merch4" value="Pin ($5)"> Pin ($5)
+     <br>
+     <p>Campaign Magazine ($10 per month)</p>
+    </div>
+    <div>
+
+    </div>
+    <div class="month">
+     <input type="radio" name="sub" value="1 month Campaign Magazine ($10)"> 1 months
+     <input type="radio" name="sub" value="3 month Campaign Magazine ($30)"> 3 month
+     <input type="radio" name="sub" value="6 month Campaign Magazine ($60)"> 6 month
+     <input type="radio" name="sub" value="12 month Campaign Magazine ($120)"> 12 month
+     <br>
+    </div>
+    <div>
+     <input class="buyNow" name="form" type="image" src="../img/buy-now-button.png" alt="submit">
+    </div>
+
+
+   </form>
+  </div>
+ </div>
+</body>
+
+</html>

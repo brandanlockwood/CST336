@@ -1,0 +1,51 @@
+p {
+    font-size: 25px;
+}
+
+body {
+    background-color: #E2751D;
+}
+
+img {
+    float: right;
+    border-radius: 15px;
+    background: black;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+}
+
+.others {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+li a {
+    float: left;
+    padding-right: 100px;
+}
+
+.current {
+    font-size: 30px;
+    color: #600000;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.link {
+    font-size: 15px;
+}
+
+a:hover {
+    color: #600000;
+    text-decoration: none;
+}

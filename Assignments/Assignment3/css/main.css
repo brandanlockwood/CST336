@@ -1,0 +1,84 @@
+.img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.png {
+    border-radius: 15px;
+}
+
+.total {
+    margin-left: 70px;
+}
+
+.header {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.buyNow {
+    margin-left: 250px;
+    width: 90px;
+    height: 50px;
+}
+
+.body {
+    outline: blue;
+    width: 600px;
+    height: 525px;
+    border-radius: 25px;
+    background: #C6D9F0;
+    border: 1px solid #375D8A;
+    margin: auto;
+}
+
+.personInfo {
+    margin-left: 75px;
+}
+
+.cName {
+    padding-top: 75px;
+    margin-left: 60px;
+    padding-bottom: 15px;
+}
+
+.items {
+    margin-left: 80px;
+    padding-bottom:20px;
+}
+
+.order {
+    margin-left: 60px;
+}
+
+.support {
+    margin-left: 60px;
+    padding-bottom: 25px;
+}
+
+.candidate {
+    margin-left: 75px;
+}
+
+.merch {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+    margin-left: 75px;
+}
+
+.month {
+    margin-left: 75px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin-bottom: 0px;
+}

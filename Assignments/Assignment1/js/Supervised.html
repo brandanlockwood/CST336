@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <title>Supervised Learning</title>
+    <h1>Supervised Learning</h1>
+</head>
+
+<body>
+    <!--Navigation Menu-->
+    <div>
+        <ul class="nav">
+            <li><a href="Main.html">Main</a></li>
+            <li><a href="Supervised.html">Supervised</a></li>
+            <li><a href="Unsupervised.html">Unsupervised</a></li>
+            <li><a href="Reinforcement.html">Reinforcement</a></li>
+        </ul>
+    </div>
+    <div>
+        <!--Content-->
+        <p>
+            Supervised learning is the machine learning task of inferring a function from labeled training data. The training data consist of a set of training examples. In supervised learning, each example is a dyad consisting of an input object (typically a vector)
+            and a desired output value (withal called the supervisory signal). A supervised learning algorithm analyzes the training data and engenders an inferred function, which can be utilized for mapping incipient examples. An optimal scenario will
+            sanction for the algorithm to correctly determine the class labels for unseen instances. This requires the cognition algorithm to generalize from the training data to unseen situations in a "plausible" way.
+        </p>
+    </div>
+    <div>
+        <h3 id="model">Unsupervised learning model</h3>
+        <img src="../img/help.jpg" class="SLDC">
+    </div>
+    <h4> Issues of Supervised Learning</h4>
+    <div>
+        <p>A first issue is the tradeoff between partialness and variance. Imagine that we have available several different, but equipollently good, training data sets. A cognition algori0thm is inequitable for a particular input x if, when trained on each
+            of these data sets, it is systematically erroneous when prognosticating the correct output for x. A cognition algorithm has high variance for a particular input x if it soothsays different output values when trained on different training sets.
+            The presage error of a learned classifier is cognate to the sum of the inequitableness and the variance of the cognition algorithm Generally, there is a tradeoff between inequitableness and variance. A cognition algorithm with low partialness
+            must be "flexible" so that it can fit the data well. But if the cognition algorithm is too flexible, it will fit each training data set differently, and hence have high variance. A key aspect of many supervised learning methods is that they
+            are able to adjust this tradeoff between partialness and variance (either automatically or by providing a partialness/variance parameter that the utilizer can adjust).</p>
+    </div>
+    <div>
+        <p>The second issue is the amount of training data available relative to the intricacy of the "true" function (classifier or regression function). If the true function is simple, then an "inflexible" learning algorithm with high inequitableness and
+            low variance will be able to learn it from a scintilla of data. But if the true function is highly intricate (e.g., because it involves intricate interactions among many different input features and deports differently in different components
+            of the input space), then the function will only be learnable from a very substantial amount of training data and utilizing a "flexible" learning algorithm with low partialness and high variance. Good learning algorithms ergo automatically
+            adjust the inequitableness/variance tradeoff predicated on the amount of data available and the ostensible involution of the function to be learned.
+        </p>
+    </div>
+    <div>
+        <p>A third issue is the dimensionality of the input space. If the input feature vectors have very high dimension, the cognition quandary can be arduous even if the true function only depends on a minuscule number of those features. This is because
+            the many "extra" dimensions can discombobulate the cognition algorithm and cause it to have high variance. Hence, high input dimensionality typically requires tuning the classifier to have low variance and high inequitableness. In practice,
+            if the engineer can manually abstract impertinent features from the input data, this is liable to amend the precision of the learned function. In integration, there are many algorithms for feature cull that seek to identify the germane features
+            and discard the impertinent ones. This is an instance of the more general strategy of dimensionality reduction, which seeks to map the input data into a lower-dimensional space prior to running the supervised learning algorithm.</p>
+    </div>
+    <div>
+        <p>A fourth issue is the degree of noise in the desired output values (the supervisory target variables). If the desired output values are often erroneous (because of human error or sensor errors), then the cognition algorithm should not endeavor
+            to find a function that precisely matches the training examples. Endeavoring to fit the data too punctiliously leads to overfitting. You can overfit even when there are no quantification errors (stochastic noise) if the function you are endeavoring
+            to learn is too intricate for your learning model. In such a situation that component of the target function that cannot be modeled "corrupts" your training data - this phenomenon has been called deterministic noise. When either type of noise
+            is present, it is better to go with a higher inequitableness, lower variance estimator. In practice, there are several approaches to alleviate noise in the output values such as early ceasing to avert overfitting as well as detecting and abstracting
+            the strepitous training examples prior to training the supervised learning algorithm. There are several algorithms that identify strepitous training examples and abstracting the suspected strepitous training examples prior to training has
+            decremented generalization error with statistical paramountcy.</p>
+    </div>
+    <div>
+        <!--Source-->
+        <h5 align="left">Source</h5>
+        <ul class="navAlgo">
+            <li><a href="https://en.wikipedia.org/wiki/Supervised_learning">Supervised Learning</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
